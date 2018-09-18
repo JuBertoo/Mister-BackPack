@@ -1,0 +1,79 @@
+*{
+	margin:o;
+}
+.myContainerFluid{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand h1{
+	font-size : 2rem;
+}
+img{
+	width: 100%;
+}
+.title_section{
+	font-size: 32px;
+	margin-bottom: 0;
+}
+.panier_une{
+	margin: 15px;
+	min-height: 340px;
+}
+.event{
+	border: solid black 1px;
+	margin-bottom: 5px;
+	padding: 5px;
+	margin-left: 0px;
+}
+.img_une{
+	width: 100%;
+}
+.photo_panier{
+	height: 287px;
+}
+.img_panier{
+	height: 100%;
+}
+.passeport{
+	border: solid black 1px;
+	margin-top: 20px;
+}
+
+.margin_zero{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+
+/*----Version Mobile-------*/
+@media screen and (max-width: 767px){
+
+.title_section{
+
+}
+.photo_panier{
+	margin: auto;
+	height: 271px;
+}
+.img_panier{
+	height: 80%;
+}
+.img_une{
+	display: none;
+}
+.news{
+	margin-top: 15px;
+}
+
+.margin_zero{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+}
+
