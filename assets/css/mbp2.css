@@ -1,0 +1,110 @@
+.panier_head {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	background-image: url('https://via.placeholder.com/1600x1100');
+	height: 450px;
+}
+.mask_white_big {
+	background: white;
+	opacity: 0.5;
+	margin: 70px;
+	padding: 70px;
+}
+.myBorder {
+	border: solid black 1px;
+}
+.myText {
+	padding: 29px;
+}
+.section_1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+span {
+	font-weight: bold;
+}
+.section_2 {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	background-color: #d8eaec;
+	margin-bottom: 3%;
+}
+.title_section2 {
+	font-size: 32px;
+	margin-bottom: 0;
+	padding-top: 3%;
+	padding-bottom: 2%;
+
+}
+.img_page2_section2 {
+	height: 85%;
+}
+.monuments {
+	display: flex;
+	justify-content: space-around;
+	min-height: 250px;
+	margin-bottom: 10% !important;
+}
+.maison {
+	width: 100%;
+	background-image: url("../../assets/images/Istanbul.jpg");
+	background-size: 146%;
+    background-position: 76% 19%;
+	
+}
+
+.preau {
+	width: 100%;
+	background-image: url("../../assets/images/Mexique.jpg");	
+	background-size: 150%;
+	background-position: 55% 0%;	
+}
+
+.pavillon {
+	width: 100%;
+	background-image: url("../../assets/images/Venise.jpg");
+	background-size: 100%;
+    background-position: 90% 98%;		
+}
+.mask_white_little{
+	background: white;
+	opacity: 0.5;	
+	justify-content: center;
+	align-items: center;
+	margin :10%;
+	height:75%;
+}
+.section_3 {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	background-color: #d8eaec;
+	margin-bottom: 3%;
+}
+.col_img_section3{
+	height:390px;
+}
+.img_page2_section3 {
+	height: 100%;
+}
+/*----Version Mobile-------*/
+
+@media screen and (max-width: 767px) {
+	.panier_head {
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		background-image: url('https://via.placeholder.com/1600x1100');
+		height: 200px;
+	}
+	.mask_white {
+		background: white;
+		opacity: 0.5;
+		margin-top: 20%;
+	}
+}
