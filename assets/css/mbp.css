@@ -53,6 +53,8 @@ img{
 .title_section {
 	display: flex;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 .padding_zero {
@@ -123,7 +125,12 @@ hr{
     background-position: 90% 98%;		
 }
 
-
+.row_button {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+ }
 
 
 
@@ -180,6 +187,32 @@ ul.socialIcons {
     box-shadow: 0 0 16px #c92228;
 }
 
+/* issam */
+
+.socialIcons {
+        display: flex;
+        justify-content: center;
+
+
+  }
+
+.container {
+    	display: flex;
+    	justify-content: center;
+
+  }
+
+
+.contact-form {
+        /*display: flex;*/
+    	justify-content: center;
+    	/*margin-left: 40px;*/ 
+  }
+
+.copyright {
+	display: flex;
+	justify-content: center;
+  }
 
 
 
@@ -253,11 +286,7 @@ ul.socialIcons {
 
 	} 
 
-
-
-
-
-
+         
 
 
 
