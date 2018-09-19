@@ -38,15 +38,149 @@ img{
 .img_panier{
 	height: 100%;
 }
-.passeport{
+/* .passeport{ 
 	border: solid black 1px;
 	margin-top: 20px;
-}
+}*/
 
 .margin_zero{
 	margin-left: 0;
 	margin-right: 0;
 }
+
+/* ................Lydia.............. */
+
+.title_section {
+	display: flex;
+    justify-content: center;
+}
+
+.padding_zero {
+	padding: 0;
+}
+
+/* Passepport */
+
+.passeport{
+	margin-top: 20px;
+	padding: 80PX;
+	background-image: url("../../assets/images/annie-spratt-746983-unsplash.jpg");
+	background-size: 100%; 
+	background-position: 30% 30%;
+
+}
+
+.passeport ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.passeport_img {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;	
+}
+
+hr{
+	margin-left: 0;
+    width: 50px;
+	background-color: black;
+  }
+
+/* Voyages */
+
+.voyages {
+	display: flex;
+	justify-content: space-around;
+	min-height: 250px;
+}
+
+.voyages p {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.istanbul {
+	width: 100%;
+	background-image: url("../../assets/images/Istanbul.jpg");
+	background-size: 146%;
+    background-position: 76% 19%;
+	
+}
+
+.mexique {
+	width: 100%;
+	background-image: url("../../assets/images/Mexique.jpg");	
+	background-size: 150%;
+	background-position: 55% 0%;	
+}
+
+.venise {
+	width: 100%;
+	background-image: url("../../assets/images/Venise.jpg");
+	background-size: 100%;
+    background-position: 90% 98%;		
+}
+
+
+
+
+
+/* Icons reseaux sociaux  */
+
+
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+}
+.socialIcons li {
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 15%;
+    border-radius: 2em;
+    overflow:hidden;
+}
+.socialIcons li a {
+    display: block;
+    padding: .5em;
+    max-width: 2.3em;
+    min-width: 2.3em;
+    height: 2.3em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition:.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+.socialIcons li i {
+    margin-right:.5em;
+}
+.socialIcons li:hover a {
+    max-width:200px;
+    padding-right:1em;
+}
+.socialIcons .facebook {
+    background: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+}
+.socialIcons .twitter {
+    background: #00aced;
+    box-shadow: 0 0 16px #00aced;
+}
+.socialIcons .instagram {
+    background: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+}
+.socialIcons .pinterest {
+    background: #c92228;
+    box-shadow: 0 0 16px #c92228;
+}
+
+
 
 
 
@@ -74,6 +208,58 @@ img{
 	margin-left: 0;
 	margin-right: 0;
 }
+
+
+
+/* ........Lydia....... */
+
+/* Voyages */
+
+.istanbul {
+	width: 100%;
+	background-image: url("../../assets/images/Istanbul.jpg");
+	background-size: 100%;
+	background-position: 80% 57%;
+}
+	
+	.mexique {
+		width: 100%;
+		background-image: url("../../assets/images/Mexique.jpg");	
+		background-size: 99%;
+		background-position: 48% 73%;
+		margin-top: 5px;
+			
+	}
+	
+	.venise {
+		width: 100%;
+		background-image: url("../../assets/images/Venise.jpg");
+		background-size: 100%;
+		background-position: 88% 84%;
+		margin-top: 5px;
+				
+	
+	}
+
+	.voyages {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.row_button {
+		margin-top :10px;
+		display: flex;
+		justify-content: center;
+
+	} 
+
+
+
+
+
+
+
+
 
 }
 
