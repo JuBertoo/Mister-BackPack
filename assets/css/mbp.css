@@ -1,5 +1,12 @@
+
+
+
 *{
 	margin:o;
+}
+
+body {
+	font-family: 'Lato', sans-serif;;
 }
 .myContainerFluid{
 	margin: 0;
@@ -14,11 +21,11 @@ html,body{
 }
 img{
 	width: 100%;
-}
+ }/*
 .title_section{
 	font-size: 32px;
 	margin-bottom: 0;
-}
+} */
 .panier_une{
 	margin: 15px;
 	min-height: 340px;
@@ -52,13 +59,22 @@ img{
 
 .title_section {
 	display: flex;
+
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 15px;
+
 }
 
 .padding_zero {
 	padding: 0;
+}
+
+/*........... Julien.............. */
+
+.title_section{
+	margin: 4rem 1rem;
+	font-size: 1.5em;
 }
 
 /* Passepport */
@@ -69,24 +85,48 @@ img{
 	background-image: url("../../assets/images/annie-spratt-746983-unsplash.jpg");
 	background-size: 100%; 
 	background-position: 30% 30%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+
 
 }
 
 .passeport ul {
 	list-style-type: none;
 	padding-left: 0;
+	
 }
 
 .passeport_img {
-	display: flex;
-    flex-direction: column;
-	justify-content: center;	
+
+	background-image: url("../../assets/images/Miser_Backpack.jpg");
+	background-size: 193%;
+    background-position: 53% 76%;
+	
 }
+
 
 hr{
 	margin-left: 0;
     width: 50px;
 	background-color: black;
+  }
+
+.passeport_title{
+	  font-weight: 700;
+	  letter-spacing: 2px;
+	  font-size: 1.5em ;
+
+  }
+  .sous-titre {
+	  letter-spacing: 2px;
+	  font-weight: 600;
+	  font-size: 1em
+  }
+
+  .passeport span {
+	  font-weight: 600;
   }
 
 /* Voyages */
@@ -98,8 +138,12 @@ hr{
 }
 
 .voyages p {
-	display: flex;
-	justify-content: center;
+	margin-bottom: 0;
+	color: #fff;
+	border: 1px solid white;
+	padding: 2px 15px;
+	letter-spacing: 2px;
+
 	
 }
 
@@ -107,7 +151,11 @@ hr{
 	width: 100%;
 	background-image: url("../../assets/images/Istanbul.jpg");
 	background-size: 146%;
-    background-position: 76% 19%;
+	background-position: 76% 19%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 	
 }
 
@@ -116,13 +164,20 @@ hr{
 	background-image: url("../../assets/images/Mexique.jpg");	
 	background-size: 150%;
 	background-position: 55% 0%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 .venise {
 	width: 100%;
 	background-image: url("../../assets/images/Venise.jpg");
 	background-size: 100%;
-    background-position: 90% 98%;		
+	background-position: 90% 98%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;	
 }
 
 .row_button {
@@ -220,9 +275,6 @@ ul.socialIcons {
 /*----Version Mobile-------*/
 @media screen and (max-width: 767px){
 
-.title_section{
-
-}
 .photo_panier{
 	margin: auto;
 	height: 271px;
@@ -246,6 +298,38 @@ ul.socialIcons {
 
 /* ........Lydia....... */
 
+/* .......Julien........ */
+
+.title_section{
+	margin: 30px 20px;
+	font-size: 1.1em;
+}
+
+/* Passeport */
+.passeport{
+	padding: 1rem;
+
+}
+
+.passeport_img {
+
+	background-image: url("../../assets/images/Miser_Backpack.jpg");
+	background-size: 193%;
+	background-position: 53% 76%;
+}
+.passeport_title{
+	font-size: font-size: 0.87em;
+}
+
+.sous-titre {
+	font-size: 0.77em;
+}
+	
+.passeport ul {
+	font-size: 0.75em;
+}
+
+
 /* Voyages */
 
 .istanbul {
@@ -255,36 +339,36 @@ ul.socialIcons {
 	background-position: 80% 57%;
 }
 	
-	.mexique {
-		width: 100%;
-		background-image: url("../../assets/images/Mexique.jpg");	
-		background-size: 99%;
-		background-position: 48% 73%;
-		margin-top: 5px;
+.mexique {
+	width: 100%;
+	background-image: url("../../assets/images/Mexique.jpg");	
+	background-size: 99%;
+	background-position: 48% 73%;
+	margin-top: 5px;
+		
+}
+
+.venise {
+	width: 100%;
+	background-image: url("../../assets/images/Venise.jpg");
+	background-size: 100%;
+	background-position: 88% 84%;
+	margin-top: 5px;
 			
-	}
-	
-	.venise {
-		width: 100%;
-		background-image: url("../../assets/images/Venise.jpg");
-		background-size: 100%;
-		background-position: 88% 84%;
-		margin-top: 5px;
-				
-	
-	}
 
-	.voyages {
-		display: flex;
-		justify-content: space-around;
-	}
+}
 
-	.row_button {
-		margin-top :10px;
-		display: flex;
-		justify-content: center;
+.voyages {
+	display: flex;
+	justify-content: space-around;
+}
 
-	} 
+.row_button {
+	margin-top :10px;
+	display: flex;
+	justify-content: center;
+
+} 
 
          
 
