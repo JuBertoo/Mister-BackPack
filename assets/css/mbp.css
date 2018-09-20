@@ -2,7 +2,11 @@
 
 
 *{
+<<<<<<< HEAD
 	margin:0;/*change O en 0 si probleme rechanger*/
+=======
+	margin:0;
+>>>>>>> 38ff78050035ef5d97ebbd97110388becb085579
 }
 
 body {
@@ -41,6 +45,9 @@ img{
 .panier_une{
 	margin: 15px;
 	min-height: 340px;
+	/* Julien */
+	background-color: #f1f6f6;
+	/* padding: 20px 15px; */
 }
 .event{
 	border: solid black 1px;
@@ -53,7 +60,8 @@ img{
 }
 .photo_panier{
 	height: 287px;
-}
+ }
+
 .img_panier{
 	height: 100%;
 }
@@ -89,11 +97,25 @@ img{
 	font-size: 1.5em;
 }
 
+/* Slider */
+.carousel-item {
+	max-height: 400px;
+	height:100%;
+	
+}
+
+/* Panier */
+.img_panier{
+	/* background-image: url("../../assets/images/img_panier.jpeg"); */
+	
+}
+
+
 /* Passepport */
 
 .passeport{
-	margin-top: 20px;
-	padding: 80PX;
+	margin-top: 0px;
+	padding: 80px;
 	background-image: url("../../assets/images/annie-spratt-746983-unsplash.jpg");
 	background-size: 100%; 
 	background-position: 30% 30%;
@@ -153,8 +175,10 @@ hr{
 	margin-bottom: 0;
 	color: #fff;
 	border: 1px solid white;
-	padding: 2px 15px;
+	padding: 1px 20px;
 	letter-spacing: 2px;
+	font-size: 1.2em;
+	
 
 	
 }
@@ -194,9 +218,25 @@ hr{
 
 .row_button {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
+ }
+
+ /* Footer */
+
+ .footer {
+	 display: flex;
+	 justify-content: center;
+	 background-color: #f1f6f6;
+ }
+
+ .footer_title {
+	font-size: 1em;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	 
  }
 
 
@@ -277,8 +317,11 @@ ul.socialIcons {
   }
 
 .copyright {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
+	font-size: 0.65em;
+	letter-spacing: 2px;
+	color: #393a3b
   }
 
 
