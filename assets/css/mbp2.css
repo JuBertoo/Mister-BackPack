@@ -2,7 +2,7 @@
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	background-image: url('https://via.placeholder.com/1600x1100');
+	background-image: url('../images/panier_panier1.jpg');
 	height: 450px;
 }
 .mask_white_big {
@@ -13,6 +13,7 @@
 }
 .myBorder {
 	border: solid black 1px;
+	width: 100%;
 }
 .myText {
 	padding: 29px;
@@ -95,16 +96,40 @@ span {
 /*----Version Mobile-------*/
 
 @media screen and (max-width: 767px) {
+
+	.navbar-brand h1 {
+        font-size: 1.4rem !important;
+	}
+	.h3, h3 {
+    font-size: 1.20rem !important;
+	}
 	.panier_head {
 		text-align: center;
 		justify-content: center;
 		display: flex;
-		background-image: url('https://via.placeholder.com/1600x1100');
-		height: 200px;
+		background-image: url('https://via.placeholder.com/350x400');
+		height: 260px;
 	}
-	.mask_white {
-		background: white;
-		opacity: 0.5;
-		margin-top: 20%;
+	.mask_white_big {
+		
+    	background: white;
+    	opacity: 0.5;
+    	margin: 30px;
+    	padding: 5%;
+    	display: flex;
+    	justify-content: center;
+    	/* align-items: center; */
+	}
+	.myBorder {
+        border: none;
+	}
+	.title_section2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-top: 3%;
+    padding-bottom: 2%;
+	}
+	.col_img_section3 {
+    height: 170px;
 	}
 }
