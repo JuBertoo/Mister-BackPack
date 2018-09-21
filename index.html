@@ -23,15 +23,15 @@
                         <h3>ACCUEIL</h3><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                        <h3>CARNET DE VOYAGES</h3></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#pass">
                         <h3>PASSEPORT</h3></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#CV">
+                        <h3>CARNET DE VOYAGES</h3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cont">
                         <h3>CONTACT</h3></a>
                     </li>
                 </ul>
@@ -61,7 +61,7 @@
                     <p>COUP DE COEUR</p>
                 </div>
                 <div id="photoPanier" class="row photo_panier">
-                    <p>MARSEILLE - LE QUARTIER DU PANIER</p>
+                    <a href="pages/page_panier.html"><p>MARSEILLE - LE QUARTIER DU PANIER</p></a>
                 </div>
                 <!-- <p class="title_section">COUP DE COEUR</p><a href="url"><img alt="image du panier" class="img_panier" src="assets/images/photo_panier2.jpeg"></a> -->
 
@@ -74,27 +74,33 @@
                 <div id="textUne">
                     <div class="row event">
                         <div class="col-10 col-lg-8 event_text">
+                            <a href="https://www.lepanierdemarseille.com/la-vieille-charite-le-panier">
                             <p class="date">5 SEPTEMBRE 2018</p>
                             <p class="visite">VISITE DE<p>
                             <p classe= "lieu">LA VIEILLE CHARITÉ</p>
+                        </a>
                         </div>
                         <div class="col-lg-4"><img alt="img" class="img_une" src="assets/images/photo_panier2.jpeg"></div>
                     </div>
                     <div class="row event">
                         <div class="col-10 col-lg-8">
-                            <p class="date">5 SEPTEMBRE 2018</p>
+                            <a href="https://madeinmarseille.net/5396-cathedrale-major-marseille/">
+                            <p class="date">4 SEPTEMBRE 2018</p>
                             <p class="visite">VISITE DE<p>
-                            <p classe= "lieu">LA VIEILLE CHARITÉ</p>
+                            <p classe= "lieu">LA MAJOR</p>
+                            </a>
                         </div>
                         <div class="col-lg-4"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
                     </div>
                     <div class="row row-eq-height event">
                         <div class="col-10 col-lg-8">
-                            <p class="date">5 SEPTEMBRE 2018</p>
+                            <a href="http://maison-de-la-boule.com/maison.htm">
+                            <p class="date">3 SEPTEMBRE 2018</p>
                             <p class="visite">VISITE DE<p>
-                            <p classe= "lieu">LA VIEILLE CHARITÉ</p>
+                            <p classe= "lieu">LA MAISON DE LA BOULE</p>
+                            </a>
                         </div>
-                        <div class="col-lg-4"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
+                        <div id="pass" class="col-lg-4"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
                     </div>
                 </div>
             </div>
@@ -118,7 +124,7 @@
                     <li>Hobbies : <span>Photographie, Apéro, Treck...</span></li>
                     <li>Culinaires : <span>Italien, Turc, Mexicain</span></li>
                     <li>Sports : <span>Parachute, vélo, plongée, surf</span></li>
-                    <li>Citation : <span>« Rester c’est exister, mais voyage c’est vivre.»</span></li>
+                    <li id="CV">Citation : <span>« Rester c’est exister, mais voyage c’est vivre.»</span></li>
                 </ul>
             </div>
         </div>
@@ -128,18 +134,18 @@
         <p class="title_section">CARNET DE VOYAGE</p>
         <div class="row voyages margin_zero">
             <div class="col-10 col-lg-3 istanbul">
-                <p>ISTANBUL</p>
+                <a href="https://lovelivetravel.fr/decouvrir-istanbul-en-4-jours/"><p>ISTANBUL</p></a>
             </div>
             <div class="col-10 col-lg-3 mexique">
-                <p>MEXIQUE</p>
+                <a href="https://www.bestjobersblog.com/destinations/mexique/"><p>MEXIQUE</p></a>
             </div>
             <div class="col-10 col-lg-3 venise">
-                <p>VENISE</p>
+                <a href="http://sp4nk.com/2018/06/14/3-jours-a-venise-caudalie/"><p>VENISE</p></a>
             </div>
         </div>
         <div class="row row_button margin_zero">
             <div class="padding_zero">
-                <button class="btn btn-outline-dark" type="button">MORE</button>
+                <a href="https://www.leblogdelamechante.fr/voyage-destination/"><button id="cont" class="btn btn-outline-dark" type="button">MORE</button></a>
             </div>
         </div>
 
@@ -161,7 +167,7 @@
         </div>
         <div class="row row_button margin_zero">
             <div class="padding_zero">
-                <button class="btn btn-outline-dark" type="button">ENVOYEZ</button>
+                <button id="envoyer" class="btn btn-outline-dark" type="button">ENVOYEZ</button>
             </div>
         </div>
 
@@ -174,10 +180,10 @@
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
             <div class="container_issam">
                 <ul class="socialIcons">
-                <li class="facebook"><a href="#"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li> 
-                <li class="twitter"><a href="#"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li> 
-                <li class="instagram"><a href="#"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li> 
-                <li class="pinterest"><a href="#"><i class="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li> 
+                <li class="facebook"><a href="https://fr-fr.facebook.com/Voyageursdumonde/"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li> 
+                <li class="twitter"><a href="https://twitter.com/conseilsvoyages?lang=fr"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li> 
+                <li class="instagram"><a href="https://www.instagram.com/afrenchtraveler/"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li> 
+                <li class="pinterest"><a href="https://www.pinterest.fr/vvagabondages/"><i class="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li> 
                 </ul>
             </div>
             <p class="copyright">2018 BLOG VOYAGE COPYRIGHT © MISTER BACKPAK - TOUS DROITS RÉSERVÉS.</p>
@@ -207,5 +213,16 @@
         });
     </script>
     
+    <script type="text/javascript">
+        const btn = document.querySelector("#envoyer");
+        btn.addEventListener("click",function () {
+        btn.innerHTML = "Message envoyé"
+        btn.disabled=true;
+        btn.style.borderColor = "green";
+        btn.style.color = "green";
+
+        })
+
+    </script>
 </body>
 </html>
