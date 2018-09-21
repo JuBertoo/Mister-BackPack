@@ -221,7 +221,7 @@ img{
 
 	background-image: url("../../assets/images/Miser_Backpack.jpg");
 	background-size: 193%;
-    background-position: 53% 76%;
+    background-position: 53% 68%;
 	
 }
 
@@ -437,6 +437,16 @@ ul.socialIcons {
 /* ........Lydia....... */
 
 /* .......Julien........ */
+
+#charité {
+	display: none
+}
+#major {
+	display: none
+}
+.boule {
+	display: none
+}
 
 /* panier */
 
