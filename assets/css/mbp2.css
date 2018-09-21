@@ -98,6 +98,18 @@ span {
 	height: 100%;
 }
 
+
+/* .....Julien......  */
+.ruelle {
+	display: flex;
+	justify-content: space-around
+}
+
+.rue {
+	width: 100%;
+}
+
+
 /*------ISSAM----*/
 
 .right_text {
@@ -110,6 +122,7 @@ span {
 	font-weight: 900;
 
 }
+
 
 
 
