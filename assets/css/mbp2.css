@@ -3,12 +3,13 @@
 	justify-content: center;
 	display: flex;
 	background-image: url('../../assets/images/panier-top.png');	
-	height: 450px;
+	height: 515px;
+	align-items: center;
 }
 .mask_white_big {
 	background: white;
 	opacity: 0.8;
-	margin: 70px;
+	margin-top: 6%;
 	padding: 70px;
 }
 .myBorder {
@@ -22,8 +23,8 @@
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 7%;
+	margin-bottom: 7%;
 }
 span {
 	font-weight: bold;
@@ -141,18 +142,27 @@ span {
 		text-align: center;
 		justify-content: center;
 		display: flex;
-		background-image: url('https://via.placeholder.com/350x400');
+		background-image: url('../../assets/images/panier-top.png');
 		height: 260px;
 	}
 	.mask_white_big {
 		
     	background: white;
     	opacity: 0.5;
-    	margin: 30px;
-    	padding: 5%;
+    	/*margin: 30px;*/
+    	padding: 0%;
     	display: flex;
     	justify-content: center;
     	/* align-items: center; */
+	}
+	.mask_white_little {
+    background: white;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    height: 75%;    
+    padding-top: 5%;
 	}
 	.myBorder {
         border: none;
@@ -172,10 +182,11 @@ span {
     background-size: 44%;
     background-position: 90% 98%;
 }
-.preau {
+	.preau {
     width: 100%;
     background-image: url(../../assets/images/accoules.jpg);
     background-size: 76%;
     background-position: 55% 0%;
-}
+	}
+
 }
