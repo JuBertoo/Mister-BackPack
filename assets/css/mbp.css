@@ -2,7 +2,7 @@
 
 
 *{
-	margin:o;
+	margin:0;
 }
 
 body {
@@ -17,7 +17,19 @@ html,body{
 	padding: 0;
 }
 .navbar-brand h1{
-	font-size : 2rem;
+	/*font-size : 2rem;*/
+	font-size : 1.8rem;
+}
+.navbar-expand-lg{
+	position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.h3, h3 {
+    font-size: 1.40rem;
+}
+.navbar-expand-lg .navbar-collapse{
+	justify-content: center;
 }
 img{
 	width: 100%;
@@ -29,6 +41,9 @@ img{
 .panier_une{
 	margin: 15px;
 	min-height: 340px;
+	/* Julien */
+	background-color: #f1f6f6;
+	/* padding: 20px 15px; */
 }
 .event{
 	border: solid black 1px;
@@ -42,7 +57,8 @@ img{
 }
 .photo_panier{
 	height: 287px;
-}
+ }
+
 .img_panier{
 	height: 100%;
 }
@@ -74,15 +90,29 @@ img{
 /*........... Julien.............. */
 
 .title_section{
-	margin: 4rem 1rem;
+	/*margin: 4rem 1rem;*//*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
 	font-size: 1.5em;
 }
+
+/* Slider */
+.carousel-item {
+	max-height: 400px;
+	height:100%;
+	
+}
+
+/* Panier */
+.img_panier{
+	/* background-image: url("../../assets/images/img_panier.jpeg"); */
+	
+}
+
 
 /* Passepport */
 
 .passeport{
-	margin-top: 20px;
-	padding: 80PX;
+	margin-top: 0px;
+	padding: 80px;
 	background-image: url("../../assets/images/annie-spratt-746983-unsplash.jpg");
 	background-size: 100%; 
 	background-position: 30% 30%;
@@ -142,8 +172,10 @@ hr{
 	margin-bottom: 0;
 	color: #fff;
 	border: 1px solid white;
-	padding: 2px 15px;
+	padding: 1px 20px;
 	letter-spacing: 2px;
+	font-size: 1.2em;
+	
 
 	
 }
@@ -183,9 +215,25 @@ hr{
 
 .row_button {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
+ }
+
+ /* Footer */
+
+ .footer {
+	 display: flex;
+	 justify-content: center;
+	 background-color: #f1f6f6;
+ }
+
+ .footer_title {
+	font-size: 1em;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	 
  }
 
 
@@ -202,7 +250,7 @@ ul.socialIcons {
     list-style: none;
     display: inline-block;
     margin: 15px;
-    margin-top: 15%;
+   /* margin-top: 15%;*/ /*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
     border-radius: 2em;
     overflow:hidden;
 }
@@ -266,8 +314,11 @@ ul.socialIcons {
   }
 
 .copyright {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
+	font-size: 0.65em;
+	letter-spacing: 2px;
+	color: #393a3b
   }
 
 
@@ -302,7 +353,7 @@ ul.socialIcons {
 /* .......Julien........ */
 
 .title_section{
-	margin: 30px 20px;
+	/*margin: 30px 20px;*//*espace social link responsive*/
 	font-size: 1.1em;
 }
 
