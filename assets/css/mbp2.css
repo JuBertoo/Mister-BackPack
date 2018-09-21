@@ -2,12 +2,12 @@
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	background-image: url('../images/panier_panier1.jpg');
+	background-image: url('../../assets/images/panier-top.png');	
 	height: 450px;
 }
 .mask_white_big {
 	background: white;
-	opacity: 0.5;
+	opacity: 0.8;
 	margin: 70px;
 	padding: 70px;
 }
@@ -53,7 +53,7 @@ span {
 }
 .maison {
 	width: 100%;
-	background-image: url("../../assets/images/Istanbul.jpg");
+	background-image: url("../../assets/images/maison-diamantee.jpg");
 	background-size: 146%;
     background-position: 76% 19%;
 	
@@ -61,16 +61,20 @@ span {
 
 .preau {
 	width: 100%;
-	background-image: url("../../assets/images/Mexique.jpg");	
-	background-size: 150%;
-	background-position: 55% 0%;	
+	background-image: url("../../assets/images/accoules.jpg");	
+	background-size: 182%;
+	background-position: 55% 0%;
+	margin-top: 5px;
+		
 }
 
 .pavillon {
 	width: 100%;
-	background-image: url("../../assets/images/Venise.jpg");
-	background-size: 100%;
-    background-position: 90% 98%;		
+	background-image: url("../../assets/images/daviel.jpg");
+	background-size: 149%;
+    background-position: 90% 98%;
+    margin-top: 5px;
+
 }
 .mask_white_little{
 	background: white;
@@ -93,6 +97,23 @@ span {
 .img_page2_section3 {
 	height: 100%;
 }
+
+/*------ISSAM----*/
+
+.right_text {
+	text-align: right;
+	padding-right: 40px;
+	font-weight: 600;
+}
+
+.nom {
+	font-weight: 900;
+
+}
+
+
+
+
 /*----Version Mobile-------*/
 
 @media screen and (max-width: 767px) {
@@ -132,4 +153,16 @@ span {
 	.col_img_section3 {
     height: 170px;
 	}
+	.pavillon {
+    width: 100%;
+    background-image: url(../../assets/images/daviel.jpg);
+    background-size: 44%;
+    background-position: 90% 98%;
+}
+.preau {
+    width: 100%;
+    background-image: url(../../assets/images/accoules.jpg);
+    background-size: 76%;
+    background-position: 55% 0%;
+}
 }
