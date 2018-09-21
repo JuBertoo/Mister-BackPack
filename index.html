@@ -55,35 +55,46 @@
         <div class="row panier_une margin_zero">
             <!-- Coup de coeur -->
 
-            <div class="col-12 col-lg-6 photo_panier">
-
-                <p class="title_section">COUP DE COEUR</p><a href="url"><img alt="image du panier" class="img_panier" src="assets/images/photo_panier2.jpeg"></a>
+            <div class="col-12 col-lg-6">
+                <div class="row title_section">
+                    <p>COUP DE COEUR</p>
+                </div>
+                <div id="photoPanier" class="row photo_panier">
+                    <p>MARSEILLE - LE QUARTIER DU PANIER</p>
+                </div>
+                <!-- <p class="title_section">COUP DE COEUR</p><a href="url"><img alt="image du panier" class="img_panier" src="assets/images/photo_panier2.jpeg"></a> -->
 
             </div>
             <!-- La Une -->
             <div class="col-12 col-lg-6 news">
-                <p class="title_section">LA UNE</p>
-                <div class="row row-eq-height event">
-                    <div class="col-10 col-lg-9">
-                        <p class="date">5 SEPTEMBRE</p>
-                        <p class="visite">VISITE DE<p>
-                        <p classe= "lieu">LA VIEILLE CHARITÉ</p>
-                    </div>
-                    <div class="col-lg-3"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
+                <div class="row title_une">
+                        <p>LA UNE</p>
                 </div>
-                <div class="row event">
-                    <div class="col-10 col-lg-6">
-                        <p class="date">date</p>
-                        <p class="lieu">lieu</p>
+                <div id="textUne">
+                    <div class="row event">
+                        <div class="col-10 col-lg-8 event_text">
+                            <p class="date">5 SEPTEMBRE 2018</p>
+                            <p class="visite">VISITE DE<p>
+                            <p classe= "lieu">LA VIEILLE CHARITÉ</p>
+                        </div>
+                        <div class="col-lg-4"><img alt="img" class="img_une" src="assets/images/photo_panier2.jpeg"></div>
                     </div>
-                    <div class="col-lg-3"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
-                </div>
-                <div class="row row-eq-height event">
-                    <div class="col-10 col-lg-6">
-                        <p class="date">date</p>
-                        <p class="lieu">lieu</p>
+                    <div class="row event">
+                        <div class="col-10 col-lg-8">
+                            <p class="date">5 SEPTEMBRE 2018</p>
+                            <p class="visite">VISITE DE<p>
+                            <p classe= "lieu">LA VIEILLE CHARITÉ</p>
+                        </div>
+                        <div class="col-lg-4"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
                     </div>
-                    <div class="col-lg-3"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
+                    <div class="row row-eq-height event">
+                        <div class="col-10 col-lg-8">
+                            <p class="date">5 SEPTEMBRE 2018</p>
+                            <p class="visite">VISITE DE<p>
+                            <p classe= "lieu">LA VIEILLE CHARITÉ</p>
+                        </div>
+                        <div class="col-lg-4"><img alt="img" class="img_une" src="https://via.placeholder.com/150x100"></div>
+                    </div>
                 </div>
             </div>
 
@@ -112,6 +123,7 @@
         </div>
 
         <!-- Mes voyages -->
+
         <p class="title_section">CARNET DE VOYAGE</p>
         <div class="row voyages margin_zero">
             <div class="col-10 col-lg-3 istanbul">
@@ -131,12 +143,13 @@
         </div>
 
         <!-- Contact -->
+
         <p class="title_section">CONTACT</p>
         <div class="offset-1 col-10 offset-md-2 col-md-8 offset-lg-2 col-lg-8 contact-form">
             <form class="form" id="contact" method="post" name="contact" role="form">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-12 form-group">
-                        <input autofocus="" class="form-control" id="name" name="name" placeholder="Name" required="" type="text">
+                        <input class="form-control" id="name" name="name" placeholder="Name" required="" type="text">
                     </div>
                     <div class="col-12 col-md-12 col-lg-12 form-group">
                         <input class="form-control" id="email" name="email" placeholder="Email" required="" type="email">
@@ -178,6 +191,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
     </script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+
+    <script>
+        function resizePicturePanier(){
+            let textUne = document.getElementById("textUne").clientHeight;
+            let photoPanier = document.getElementById("photoPanier");
+            photoPanier.style.height = textUne + "px";
+        }
+
+        resizePicturePanier()
+        window.addEventListener("resize", function(){
+            resizePicturePanier()
+        });
     </script>
     
 </body>

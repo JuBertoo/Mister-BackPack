@@ -93,6 +93,17 @@ span {
 .img_page2_section3 {
 	height: 100%;
 }
+
+/* .....Julien......  */
+.ruelle {
+	display: flex;
+	justify-content: space-around
+}
+
+.rue {
+	width: 100%;
+}
+
 /*----Version Mobile-------*/
 
 @media screen and (max-width: 767px) {
