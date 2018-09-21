@@ -128,7 +128,7 @@ span {
 		text-align: center;
 		justify-content: center;
 		display: flex;
-		background-image: url('https://via.placeholder.com/350x400');
+		background-image: url('../../assets/images/panier-top.png');
 		height: 260px;
 	}
 	.mask_white_big {
@@ -165,4 +165,5 @@ span {
     background-size: 76%;
     background-position: 55% 0%;
 }
+
 }
