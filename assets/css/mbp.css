@@ -178,7 +178,22 @@ img{
 	padding-left: 20px;
 
 }
-
+#charité {
+	background-image: url("../../assets/images/vieille_charité.jpeg");
+	width: 100%;
+	background-position: 36% 49%;
+}
+#major {
+	background-image: url("../../assets/images/major.jpg");
+	width: 100%;
+	background-position: 36% 18%;
+}
+.boule {
+	background-image: url("../../assets/images/boule.jpg");
+	width: 100%;
+	background-position: 24% 13%;
+    background-size: 95%;
+}
 
 /* Passepport */
 
