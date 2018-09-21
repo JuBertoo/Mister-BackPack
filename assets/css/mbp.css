@@ -1,9 +1,9 @@
 
 
 
-*{
+/* *{
 	margin:0;
-}
+} */
 
 body {
 	font-family: 'Lato', sans-serif;;
@@ -31,6 +31,7 @@ html,body{
 .navbar-expand-lg .navbar-collapse{
 	justify-content: center;
 }
+
 img{
 	width: 100%;
  }/*
@@ -38,30 +39,32 @@ img{
 	font-size: 32px;
 	margin-bottom: 0;
 } */
-.panier_une{
+/* .panier_une{
 	margin: 15px;
-	min-height: 340px;
+	min-height: 340px; */
 	/* Julien */
-	background-color: #f1f6f6;
-	/* padding: 20px 15px; */
-}
+	/* background-color: #f1f6f6;
+	padding: 20px 15px;  
+}*/
 .event{
-	border: solid black 1px;
+	/* border: solid black 1px; : ne correspond pas au wireframe*/
+	background-color: #fff;
 	margin-bottom: 5px;
 	padding: 5px;
 	margin-left: 0px;
+	letter-spacing: 2px;
+	line-height: 12px;
 }
 .img_une{
 	width: 100%;
 	height: 100%;
 }
-.photo_panier{
+/* .photo_panier{
 	height: 287px;
  }
-
 .img_panier{
 	height: 100%;
-}
+} */
 /* .passeport{ 
 	border: solid black 1px;
 	margin-top: 20px;
@@ -89,22 +92,82 @@ img{
 
 /*........... Julien.............. */
 
+
 .title_section{
-	/*margin: 4rem 1rem;*//*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
+	margin: 2rem 1rem;
+		/*margin: 4rem 1rem;*//*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
 	font-size: 1.5em;
 }
 
+/* navbar */
 /* Slider */
 .carousel-item {
-	max-height: 400px;
+	max-height: 700px;
 	height:100%;
 	
 }
 
 /* Panier */
-.img_panier{
-	/* background-image: url("../../assets/images/img_panier.jpeg"); */
+
+ .panier_une{
+	margin: 15px;
+	min-height: 340px;
+	/* Julien */
+	 background-color : #f1f6f6; 
+	padding: 20px 15px; 
+	margin: 0px;
+
+   } 
+	.photo_panier{
+		height: 100%;
+		background-size: cover;
+		background-image: url('../images/photo-panier-tag.jpeg');
+		background-position: 10% -77%;
+		display: flex;
+		 justify-content: center;
+		 align-items: center;
+	 } 
+	 .photo_panier p{
+		border: 1px solid white;
+		padding: 2px 20px;
+		letter-spacing: 2px;
+		font-size: 1em;
+		font-weight: 600;
+		color: white;
 	
+	 }
+	
+	.img_panier{
+		height: 100%;
+	}
+	.title_section{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	/* Une  */
+
+.date {
+	font-size: 0.7em;
+	letter-spacing: 2px;	
+}
+.visite {
+	font-weight: 100;
+}
+.lieu {
+	font-weight: 800;
+	font-size: 1.2em;
+}
+.img_une{
+	height: 100%;
+}
+
+.title_une{
+	margin: 2rem 1rem;
+	font-size: 1.5em;
+	padding-left: 20px;
+
 }
 
 
@@ -250,7 +313,8 @@ ul.socialIcons {
     list-style: none;
     display: inline-block;
     margin: 15px;
-   /* margin-top: 15%;*/ /*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
+	margin-top: 15%;
+	 /* margin-top: 15%;*/ /*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
     border-radius: 2em;
     overflow:hidden;
 }
@@ -327,10 +391,6 @@ ul.socialIcons {
 /*----Version Mobile-------*/
 @media screen and (max-width: 767px){
 
-.photo_panier{
-	margin: auto;
-	height: 271px;
-}
 .img_panier{
 	height: 80%;
 }
@@ -352,10 +412,40 @@ ul.socialIcons {
 
 /* .......Julien........ */
 
+/* panier */
+
+.photo_panier{
+	max-height: 400px;
+	background-position: 10% -140%;
+}
+
+.photo_panier p {
+    
+    padding: 2px 20px;
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    font-weight: 600;
+	color: white;
+	background-position: 10% -140%;
+	padding-bottom: 0px;
+}
+
 .title_section{
-	/*margin: 30px 20px;*//*espace social link responsive*/
+	margin: 20px 20px;
+		/*margin: 30px 20px;*//*espace social link responsive*/
 	font-size: 1.1em;
 }
+
+/* Une  */
+
+.title_une {
+	margin: 20px 20px;
+	font-size: 1.1em;
+}
+.news {
+	padding-left: 0px
+}
+
 
 /* Passeport */
 .passeport{
@@ -370,7 +460,7 @@ ul.socialIcons {
 	background-position: 53% 76%;
 }
 .passeport_title{
-	font-size: font-size: 0.87em;
+	font-size: 0.87em;
 }
 
 .sous-titre {
@@ -421,6 +511,10 @@ ul.socialIcons {
 	justify-content: center;
 
 } 
+
+.copyright {
+	font-size: 0.30em;
+}
 
          
 
