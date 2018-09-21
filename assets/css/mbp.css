@@ -187,6 +187,7 @@ img{
 	background-image: url("../../assets/images/major.jpg");
 	width: 100%;
 	background-position: 36% 18%;
+	background-size: 90%;
 }
 .boule {
 	background-image: url("../../assets/images/boule.jpg");
