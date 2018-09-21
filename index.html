@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/mbp.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <title>Home Mister BackPack</title>
+</head>
+<body>
+    <div class="container-fluid myContainerFluid">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+            <a class="navbar-brand" href="#">
+            <h1>MISTER BACKPACK</h1></a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                        <h3>ACCUEIL</h3><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pass">
+                        <h3>PASSEPORT</h3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CV">
+                        <h3>CARNET DE VOYAGES</h3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cont">
+                        <h3>CONTACT</h3></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <!-- Slider -->
+        <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+                <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+                <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img alt="First slide" class="d-block w-100" src="assets/images/WildCodeSchool-05.jpg"></div>
+                <div class="carousel-item"><img alt="Second slide" class="d-block w-100" src="assets/images/WildCodeSchool-04.jpg"></div>
+                <div class="carousel-item"><img alt="Third slide" class="d-block w-100" src="assets/images/WildCodeSchool-06.jpg"></div>
+            </div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+        </div>
+
+        <div class="row panier_une margin_zero">
+            <!-- Coup de coeur -->
+
+            <div class="col-12 col-lg-6">
+                <div class="row title_section">
+                    <p>COUP DE COEUR</p>
+                </div>
+                <div id="photoPanier" class="row photo_panier">
+                    <a href="pages/page_panier.html"><p>MARSEILLE - LE QUARTIER DU PANIER</p></a>
+                </div>
+                <!-- <p class="title_section">COUP DE COEUR</p><a href="url"><img alt="image du panier" class="img_panier" src="assets/images/photo_panier2.jpeg"></a> -->
+
+            </div>
+            <!-- La Une -->
+            <div class="col-12 col-lg-6 news">
+                <div class="row title_une">
+                        <p>LA UNE</p>
+                </div>
+                <div id="textUne">
+                    <div class="row event">
+                        <div class="col-10 col-lg-8 event_text">
+                            <a href="https://www.lepanierdemarseille.com/la-vieille-charite-le-panier">
+                            <p class="date">5 SEPTEMBRE 2018</p>
+                            <p class="visite">VISITE DE<p>
+                            <p classe= "lieu">LA VIEILLE CHARITÉ</p>
+                        </a>
+                        </div>
+                        <div class="col-lg-4" id="charité"></div>
+                    </div>
+                    <div class="row event">
+                        <div class="col-10 col-lg-8">
+                            <a href="https://madeinmarseille.net/5396-cathedrale-major-marseille/">
+                            <p class="date">4 SEPTEMBRE 2018</p>
+                            <p class="visite">VISITE DE<p>
+                            <p classe= "lieu">LA MAJOR</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 " id="major"></div>
+                    </div>
+                    <div class="row row-eq-height event">
+                        <div class="col-10 col-lg-8">
+                            <a href="http://maison-de-la-boule.com/maison.htm">
+                            <p class="date">3 SEPTEMBRE 2018</p>
+                            <p class="visite">VISITE DE<p>
+                            <p classe= "lieu">LA MAISON DE LA BOULE</p>
+                            </a>
+                        </div>
+                        <div id="pass" class="col-lg-4 boule"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Mon Passeport -->
+        <div class="row passeport margin_zero">
+            <div class="col-6 col-lg-4 passeport_img"></div>
+            <div class="col-6 col-lg-4 passeport_text">
+                <p class="passeport_title">MON PASSEPORT </p> 
+                <p class="sous-titre">IDENTITÉ</p>
+                <ul>
+                    <li>Pseudo : <span>Mister BackPack</span></li>
+                    <li>Age : <span>27 ans</span></li>
+                    <li>Nationalité : <span>Suisse</span></li>
+                </ul>
+                <hr/>
+                <p class="sous-titre">MES PRÉFÉRENCES</p>
+                <ul>
+                    <li>Hobbies : <span>Photographie, Apéro, Treck...</span></li>
+                    <li>Culinaires : <span>Italien, Turc, Mexicain</span></li>
+                    <li>Sports : <span>Parachute, vélo, plongée, surf</span></li>
+                    <li id="CV">Citation : <span>« Rester c’est exister, mais voyage c’est vivre.»</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mes voyages -->
+
+        <p class="title_section">CARNET DE VOYAGE</p>
+        <div class="row voyages margin_zero">
+            <div class="col-10 col-lg-3 istanbul">
+                <a href="https://lovelivetravel.fr/decouvrir-istanbul-en-4-jours/"><p>ISTANBUL</p></a>
+            </div>
+            <div class="col-10 col-lg-3 mexique">
+                <a href="https://www.bestjobersblog.com/destinations/mexique/"><p>MEXIQUE</p></a>
+            </div>
+            <div class="col-10 col-lg-3 venise">
+                <a href="http://sp4nk.com/2018/06/14/3-jours-a-venise-caudalie/"><p>VENISE</p></a>
+            </div>
+        </div>
+        <div class="row row_button margin_zero">
+            <div class="padding_zero">
+                <a href="https://www.leblogdelamechante.fr/voyage-destination/"><button id="cont" class="btn btn-outline-dark" type="button">MORE</button></a>
+            </div>
+        </div>
+
+        <!-- Contact -->
+
+        <p class="title_section">CONTACT</p>
+        <div class="offset-1 col-10 offset-md-2 col-md-8 offset-lg-2 col-lg-8 contact-form">
+            <form class="form" id="contact" method="post" name="contact" role="form">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" required="" type="text">
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-12 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" required="" type="email">
+                    </div>
+                </div>
+                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+            </form>
+        </div>
+        <div class="row row_button margin_zero">
+            <div class="padding_zero">
+                <button id="envoyer" class="btn btn-outline-dark" type="button">ENVOYEZ</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        
+        
+        <div class="row footer margin_zero">
+            <p class="footer_title">RESTONS EN CONTACT</p>
+            
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+            <div class="container_issam">
+                <ul class="socialIcons">
+                <li class="facebook"><a href="https://fr-fr.facebook.com/Voyageursdumonde/"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li> 
+                <li class="twitter"><a href="https://twitter.com/conseilsvoyages?lang=fr"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li> 
+                <li class="instagram"><a href="https://www.instagram.com/afrenchtraveler/"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li> 
+                <li class="pinterest"><a href="https://www.pinterest.fr/vvagabondages/"><i class="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li> 
+                </ul>
+            </div>
+            <p class="copyright">2018 BLOG VOYAGE COPYRIGHT © MISTER BACKPAK - TOUS DROITS RÉSERVÉS.</p>
+        </div>
+        
+        
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+
+    <script>
+        function resizePicturePanier(){
+            let textUne = document.getElementById("textUne").clientHeight;
+            let photoPanier = document.getElementById("photoPanier");
+            photoPanier.style.height = textUne + "px";
+        }
+
+        resizePicturePanier()
+        window.addEventListener("resize", function(){
+            resizePicturePanier()
+        });
+    </script>
+    
+    <script type="text/javascript">
+        const btn = document.querySelector("#envoyer");
+        btn.addEventListener("click",function () {
+        btn.innerHTML = "Message envoyé"
+        btn.disabled=true;
+        btn.style.borderColor = "green";
+        btn.style.color = "green";
+
+        })
+
+    </script>
+</body>
+</html>

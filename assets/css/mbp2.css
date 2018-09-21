@@ -1,0 +1,284 @@
+.panier_head {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	background-image: url('../../assets/images/panier-top.png');	
+	height: 515px;
+	align-items: center;
+}
+.mask_white_big {
+	background: white;
+	opacity: 0.8;
+	margin-top: 6%;
+	padding: 70px;
+}
+.myBorder {
+	border: solid black 1px;
+	width: 100%;
+}
+.myText {
+	padding: 29px;
+}
+.section_1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+span {
+	font-weight: bold;
+}
+.section_2 {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	background-color: #d8eaec;
+	margin-bottom: 3%;
+}
+.title_section2 {
+	font-size: 32px;
+	margin-bottom: 0;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	width: 100%;
+}
+.img_page2_section2 {
+	height: 85%;
+}
+.monuments {
+	display: flex;
+	justify-content: space-around;
+	min-height: 250px;
+	margin-bottom: 10% !important;
+}
+.maison {
+	width: 100%;
+	background-image: url("../../assets/images/maison-diamantee.jpg");
+	background-size: 146%;
+    background-position: 76% 19%;
+	
+}
+
+.preau {
+	width: 100%;
+	background-image: url("../../assets/images/accoules.jpg");	
+	background-size: 182%;
+	background-position: 55% 0%;
+	margin-top: 5px;
+		
+}
+
+.pavillon {
+	width: 100%;
+	background-image: url("../../assets/images/daviel.jpg");
+	background-size: 149%;
+    background-position: 90% 98%;
+    margin-top: 5px;
+
+}
+.mask_white_little{
+	background: white;
+	opacity: 0.5;	
+	justify-content: center;
+	align-items: center;
+	margin :10%;
+	height:75%;
+}
+.section_3 {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	background-color: #d8eaec;
+	margin-bottom: 3%;
+}
+.col_img_section3{
+	height:390px;
+}
+.img_page2_section3 {
+	height: 100%;
+}
+
+
+/* .....Julien......  */
+.container_ruelle {
+	display: flex;
+	justify-content: center;
+
+}
+
+.ruelle {
+	display: flex;
+	justify-content: center;
+	
+	margin-bottom: 20px;
+}
+.ruelle_bottom {
+	margin-bottom: 30px;
+}
+
+.rue {
+	width: 100%;
+	background-color: white;
+	padding: 30px 50px;
+	
+}
+
+.rue_droite {
+	border-right: 1px solid black;
+}
+
+.rue p {
+	font-size: 1.3em;
+}
+.rue span {
+	font-weight: 700;
+} 
+
+/* Incontournable */
+
+
+
+.incontournable {
+display: flex;
+justify-content: flex-start;
+margin: 30px;
+}
+
+row_incontournable {
+	background-color: #fff;
+    margin-bottom: 5px;
+    padding: 20px;
+	letter-spacing: 2px;
+	margin: 10px;
+	margin-bottom: 20px;
+    margin-top: 20px;	
+	
+}
+.bleu {
+	background-color : #f1f6f6;
+}
+
+.genre right_text {
+	text-align: end;
+
+}
+.nom {
+	font-size: 1.5em;
+}
+.adress {
+	
+}
+
+#dayo {
+	background-image: url("../../assets/images/dayo.jpg");
+	width: 100%;
+	background-position: 36% 49%;
+	
+}
+#manolo {
+	background-image: url("../../assets/images/manolo.jpeg");
+	width: 100%;
+	background-size: 100%;
+	background-position: 31% -10%;
+}
+#undergroundart {
+	background-image: url("../../assets/images/undergroundart.jpg");
+	width: 100%;
+	background-position: 36% 1%;
+}
+
+.incontournable_text {
+	line-height: 20px;
+}
+
+/*------ISSAM----*/
+
+.right_text {
+	text-align: right;
+	padding-right: 40px;
+	font-weight: 600;
+}
+
+.nom {
+	font-weight: 900;
+
+}
+
+
+
+
+
+/*----Version Mobile-------*/
+
+@media screen and (max-width: 767px) {
+
+	.navbar-brand h1 {
+        font-size: 1.4rem !important;
+	}
+	.h3, h3 {
+    font-size: 1.20rem !important;
+	}
+	.panier_head {
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		background-image: url('../../assets/images/panier-top.png');
+		height: 260px;
+	}
+	.mask_white_big {
+		
+    	background: white;
+    	opacity: 0.5;
+    	/*margin: 30px;*/
+    	padding: 0%;
+    	display: flex;
+    	justify-content: center;
+    	/* align-items: center; */
+	}
+	.mask_white_little {
+    background: white;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    height: 75%;    
+    padding-top: 5%;
+	}
+	.myBorder {
+        border: none;
+	}
+	.title_section2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-top: 3%;
+    padding-bottom: 2%;
+	}
+	.col_img_section3 {
+    height: 170px;
+	}
+	.pavillon {
+    width: 100%;
+    background-image: url(../../assets/images/daviel.jpg);
+    background-size: 44%;
+    background-position: 90% 98%;
+}
+	.preau {
+    width: 100%;
+    background-image: url(../../assets/images/accoules.jpg);
+    background-size: 76%;
+    background-position: 55% 0%;
+	}
+#dayo{
+	display: none;
+	
+}
+#manolo {
+	display: none;
+
+}
+#undergroundart {
+	display: none;
+}
+
+}

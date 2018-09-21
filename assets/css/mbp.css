@@ -1,0 +1,549 @@
+
+
+
+
+body {
+	font-family: 'Lato', sans-serif;;
+}
+.myContainerFluid{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+a { 
+	text-decoration: none;
+	color: black;
+ }
+a:hover { 
+	text-decoration: none;
+	color: black;
+ }
+a:focus{ 
+	text-decoration: none;
+	color: black;
+ }
+.navbar-brand h1{
+	/*font-size : 2rem;*/
+	font-size : 1.8rem;
+}
+.navbar-expand-lg{
+	position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.h3, h3 {
+    font-size: 1.40rem;
+}
+.navbar-expand-lg .navbar-collapse{
+	justify-content: center;
+}
+
+img{
+	width: 100%;
+ }/*
+.title_section{
+	font-size: 32px;
+	margin-bottom: 0;
+} */
+/* .panier_une{
+	margin: 15px;
+	min-height: 340px; */
+	/* Julien */
+	/* background-color: #f1f6f6;
+	padding: 20px 15px;  
+}*/
+.event{
+	/* border: solid black 1px; : ne correspond pas au wireframe*/
+	background-color: #fff;
+	margin-bottom: 5px;
+	padding: 5px;
+	margin-left: 0px;
+	letter-spacing: 2px;
+	line-height: 12px;
+}
+.img_une{
+	width: 100%;
+	height: 100%;
+}
+/* .photo_panier{
+	height: 287px;
+ }
+.img_panier{
+	height: 100%;
+} */
+/* .passeport{ 
+	border: solid black 1px;
+	margin-top: 20px;
+}*/
+
+.margin_zero{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* ................Lydia.............. */
+
+.title_section {
+	display: flex;
+
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.padding_zero {
+	padding: 0;
+}
+
+/*........... Julien.............. */
+
+
+.title_section{
+	margin: 2rem 1rem;
+		/*margin: 4rem 1rem;*//*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
+	font-size: 1.5em;
+}
+
+/* navbar */
+/* Slider */
+.carousel-item {
+	max-height: 700px;
+	height:100%;
+	
+}
+
+/* Panier */
+
+ .panier_une{
+	margin: 15px;
+	min-height: 340px;
+	/* Julien */
+	 background-color : #f1f6f6; 
+	padding: 20px 15px; 
+	margin: 0px;
+
+   } 
+	.photo_panier{
+		height: 100%;
+		background-size: cover;
+		background-image: url('../images/photo-panier-tag.jpeg');
+		background-position: 10% -77%;
+		display: flex;
+		 justify-content: center;
+		 align-items: center;
+	 } 
+	 .photo_panier p{
+		border: 1px solid white;
+		padding: 2px 20px;
+		letter-spacing: 2px;
+		font-size: 1em;
+		font-weight: 600;
+		color: white;
+	
+	 }
+	
+	.img_panier{
+		height: 100%;
+	}
+	.title_section{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	/* Une  */
+
+.date {
+	font-size: 0.7em;
+	letter-spacing: 2px;	
+}
+.visite {
+	font-weight: 100;
+}
+.lieu {
+	font-weight: 800;
+	font-size: 1.2em;
+}
+.img_une{
+	height: 100%;
+}
+
+.title_une{
+	margin: 2rem 1rem;
+	font-size: 1.5em;
+	padding-left: 20px;
+
+}
+#charité {
+	background-image: url("../../assets/images/vieille_charité.jpeg");
+	width: 100%;
+	background-position: 36% 49%;
+}
+#major {
+	background-image: url("../../assets/images/major.jpg");
+	width: 100%;
+	background-position: 36% 18%;
+}
+.boule {
+	background-image: url("../../assets/images/boule.jpg");
+	width: 100%;
+	background-position: 24% 13%;
+    background-size: 95%;
+}
+
+/* Passepport */
+
+.passeport{
+	margin-top: 0px;
+	padding: 80px;
+	background-image: url("../../assets/images/annie-spratt-746983-unsplash.jpg");
+	background-size: 100%; 
+	background-position: 30% 30%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+.passeport ul {
+	list-style-type: none;
+	padding-left: 0;
+	
+}
+
+.passeport_img {
+
+	background-image: url("../../assets/images/Miser_Backpack.jpg");
+	background-size: 193%;
+    background-position: 53% 76%;
+	
+}
+
+
+hr{
+	margin-left: 0;
+    width: 50px;
+	background-color: black;
+  }
+
+.passeport_title{
+	  font-weight: 700;
+	  letter-spacing: 2px;
+	  font-size: 1.5em ;
+
+  }
+  .sous-titre {
+	  letter-spacing: 2px;
+	  font-weight: 600;
+	  font-size: 1em
+  }
+
+  .passeport span {
+	  font-weight: 600;
+  }
+
+/* Voyages */
+
+.voyages {
+	display: flex;
+	justify-content: space-around;
+	min-height: 250px;
+}
+
+.voyages p {
+	margin-bottom: 0;
+	color: #fff;
+	border: 1px solid white;
+	padding: 1px 20px;
+	letter-spacing: 2px;
+	font-size: 1.2em;
+	
+
+	
+}
+
+.istanbul {
+	width: 100%;
+	background-image: url("../../assets/images/Istanbul.jpg");
+	background-size: 146%;
+	background-position: 76% 19%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.mexique {
+	width: 100%;
+	background-image: url("../../assets/images/Mexique.jpg");	
+	background-size: 150%;
+	background-position: 55% 0%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.venise {
+	width: 100%;
+	background-image: url("../../assets/images/Venise.jpg");
+	background-size: 100%;
+	background-position: 90% 98%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.row_button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+ }
+
+ /* Footer */
+
+ .footer {
+	 display: flex;
+	 justify-content: center;
+	 background-color: #f1f6f6;
+ }
+
+ .footer_title {
+	font-size: 1em;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: center;
+ }
+ socialIcons {
+	display: flex;
+	justify-content: center;
+}
+
+.container_issam {
+	display: flex;
+	justify-content: center;
+}
+
+
+.contact-form {
+	/*display: flex;*/
+	justify-content: center;
+	/*margin-left: 40px;*/ 
+}
+
+.copyright {
+/* display: flex;
+justify-content: center; */
+font-size: 0.65em;
+letter-spacing: 2px;
+color: #393a3b;
+width:100%;
+text-align: center;
+}
+
+
+
+
+/* Icons reseaux sociaux  */
+
+
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+}
+.socialIcons li {
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+	margin-top: 15%;
+	 /* margin-top: 15%;*/ /*cette fonction crée trop d'espace entre les links social et le titre restons en contact*/
+    border-radius: 2em;
+    overflow:hidden;
+}
+.socialIcons li a {
+    display: block;
+    padding: .5em;
+    max-width: 2.3em;
+    min-width: 2.3em;
+    height: 2.3em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition:.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+.socialIcons li i {
+    margin-right:.5em;
+}
+.socialIcons li:hover a {
+    max-width:200px;
+    padding-right:1em;
+}
+.socialIcons .facebook {
+    background: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+}
+.socialIcons .twitter {
+    background: #00aced;
+    box-shadow: 0 0 16px #00aced;
+}
+.socialIcons .instagram {
+    background: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+}
+.socialIcons .pinterest {
+    background: #c92228;
+    box-shadow: 0 0 16px #c92228;
+}
+
+/* issam */
+
+
+
+
+
+/*----Version Mobile-------*/
+@media screen and (max-width: 767px){
+
+.img_panier{
+	height: 80%;
+}
+.img_une{
+	display: none;
+}
+.news{
+	margin-top: 15px;
+}
+
+.margin_zero{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+
+/* ........Lydia....... */
+
+/* .......Julien........ */
+
+/* panier */
+
+.photo_panier{
+	max-height: 400px;
+	background-position: 10% -140%;
+}
+
+.photo_panier p {
+    
+    padding: 2px 20px;
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    font-weight: 600;
+	color: white;
+	background-position: 10% -140%;
+	padding-bottom: 0px;
+}
+
+.title_section{
+	margin: 20px 20px;
+		/*margin: 30px 20px;*//*espace social link responsive*/
+	font-size: 1.1em;
+}
+
+/* Une  */
+
+.title_une {
+	margin: 20px 20px;
+	font-size: 1.1em;
+}
+.news {
+	padding-left: 0px
+}
+
+
+/* Passeport */
+.passeport{
+	padding: 1rem;
+
+}
+
+.passeport_img {
+
+	background-image: url("../../assets/images/Miser_Backpack.jpg");
+	background-size: 193%;
+	background-position: 53% 76%;
+}
+.passeport_title{
+	font-size: 0.87em;
+}
+
+.sous-titre {
+	font-size: 0.77em;
+}
+	
+.passeport ul {
+	font-size: 0.75em;
+}
+
+
+/* Voyages */
+
+.istanbul {
+	width: 100%;
+	background-image: url("../../assets/images/Istanbul.jpg");
+	background-size: 100%;
+	background-position: 80% 57%;
+}
+	
+.mexique {
+	width: 100%;
+	background-image: url("../../assets/images/Mexique.jpg");	
+	background-size: 99%;
+	background-position: 48% 73%;
+	margin-top: 5px;
+		
+}
+
+.venise {
+	width: 100%;
+	background-image: url("../../assets/images/Venise.jpg");
+	background-size: 100%;
+	background-position: 88% 84%;
+	margin-top: 5px;
+			
+
+}
+
+.voyages {
+	display: flex;
+	justify-content: space-around;
+}
+
+.row_button {
+	margin-top :10px;
+	display: flex;
+	justify-content: center;
+
+} 
+
+.copyright {
+	font-size: 0.30em;
+}
+
+         
+
+
+
+}
+
