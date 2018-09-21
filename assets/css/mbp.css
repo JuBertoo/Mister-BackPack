@@ -2,11 +2,8 @@
 
 
 *{
-<<<<<<< HEAD
-	margin:0;/*change O en 0 si probleme rechanger*/
-=======
 	margin:0;
->>>>>>> 38ff78050035ef5d97ebbd97110388becb085579
+
 }
 
 body {
@@ -20,6 +17,18 @@ html,body{
 	margin: 0;
 	padding: 0;
 }
+a { 
+	text-decoration: none;
+	color: black;
+ }
+a:hover { 
+	text-decoration: none;
+	color: black;
+ }
+a:focus{ 
+	text-decoration: none;
+	color: black;
+ }
 .navbar-brand h1{
 	/*font-size : 2rem;*/
 	font-size : 1.8rem;
