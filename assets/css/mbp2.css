@@ -41,7 +41,7 @@ span {
 	margin-bottom: 0;
 	padding-top: 3%;
 	padding-bottom: 2%;
-
+	width: 100%;
 }
 .img_page2_section2 {
 	height: 85%;
@@ -101,15 +101,96 @@ span {
 
 
 /* .....Julien......  */
+.container_ruelle {
+	display: flex;
+	justify-content: center;
+
+}
+
 .ruelle {
 	display: flex;
-	justify-content: space-around
+	justify-content: center;
+	
+	margin-bottom: 20px;
+}
+.ruelle_bottom {
+	margin-bottom: 30px;
 }
 
 .rue {
 	width: 100%;
+	background-color: white;
+	padding: 30px 50px;
+	
 }
 
+.rue_droite {
+	border-right: 1px solid black;
+}
+
+.rue p {
+	font-size: 1.3em;
+}
+.rue span {
+	font-weight: 700;
+} 
+
+/* Incontournable */
+
+
+
+.incontournable {
+display: flex;
+justify-content: flex-start;
+margin: 30px;
+}
+
+row_incontournable {
+	background-color: #fff;
+    margin-bottom: 5px;
+    padding: 20px;
+	letter-spacing: 2px;
+	margin: 10px;
+	margin-bottom: 20px;
+    margin-top: 20px;	
+	
+}
+.bleu {
+	background-color : #f1f6f6;
+}
+
+.genre right_text {
+	text-align: end;
+
+}
+.nom {
+	font-size: 1.5em;
+}
+.adress {
+	
+}
+
+#dayo {
+	background-image: url("../../assets/images/dayo.jpg");
+	width: 100%;
+	background-position: 36% 49%;
+	
+}
+#manolo {
+	background-image: url("../../assets/images/manolo.jpeg");
+	width: 100%;
+	background-size: 100%;
+	background-position: 31% -10%;
+}
+#undergroundart {
+	background-image: url("../../assets/images/undergroundart.jpg");
+	width: 100%;
+	background-position: 36% 1%;
+}
+
+.incontournable_text {
+	line-height: 20px;
+}
 
 /*------ISSAM----*/
 

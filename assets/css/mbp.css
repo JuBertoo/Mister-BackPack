@@ -305,8 +305,36 @@ hr{
 	letter-spacing: 2px;
 	margin-top: 20px;
 	margin-bottom: 0px;
-	 
+	width: 100%;
+	text-align: center;
  }
+ socialIcons {
+	display: flex;
+	justify-content: center;
+}
+
+.container_issam {
+	display: flex;
+	justify-content: center;
+}
+
+
+.contact-form {
+	/*display: flex;*/
+	justify-content: center;
+	/*margin-left: 40px;*/ 
+}
+
+.copyright {
+/* display: flex;
+justify-content: center; */
+font-size: 0.65em;
+letter-spacing: 2px;
+color: #393a3b;
+width:100%;
+text-align: center;
+}
+
 
 
 
@@ -366,33 +394,6 @@ ul.socialIcons {
 
 /* issam */
 
-.socialIcons {
-        display: flex;
-        justify-content: center;
-
-
-  }
-
-.container {
-    	display: flex;
-    	justify-content: center;
-
-  }
-
-
-.contact-form {
-        /*display: flex;*/
-    	justify-content: center;
-    	/*margin-left: 40px;*/ 
-  }
-
-.copyright {
-	/* display: flex;
-	justify-content: center; */
-	font-size: 0.65em;
-	letter-spacing: 2px;
-	color: #393a3b
-  }
 
 
 
