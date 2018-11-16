@@ -1,3 +1,2 @@
 
-! [] (misterbackpack.gif)
-
+![](misterbackpack.gif)
